@@ -1,0 +1,76 @@
+.cryptoCurrency-container {
+  background-color: #000000;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #092e33;
+  height: 30px;
+  width: 100%;
+  padding-left: 15px;
+}
+.crypto-image {
+  width: 400px;
+}
+.crypto-heading {
+  color: #00e7ff;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 576px) {
+  .crypto-heading {
+    font-size: 14px;
+  }
+}
+.list-coin-type-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 11px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.usd-and-euro-container {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+.usd-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: bold;
+}
+.euro-heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.currency-container {
+  border: 3px solid #00e7ff;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border-radius: 7px;
+  width: 350px;
+  height: 200px;
+}
+.list-currency-container {
+  padding: 5px;
+  margin-left: 10px;
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.currency-container {
+  background-color: transparent;
+}

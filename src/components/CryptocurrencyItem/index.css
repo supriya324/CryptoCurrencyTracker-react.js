@@ -1,0 +1,31 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+.item-container {
+  display: flex;
+  align-items: center;
+}
+.currency-logo {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.currency-name {
+  color: #ffffff;
+  font-family: 10px;
+  margin-left: 10px;
+}
+
+.usd-value {
+  color: #ffffff;
+  font-size: 10px;
+}
+.euro-value {
+  color: #ffffff;
+  font-size: 10px;
+  margin-left: 10px;
+}
+.usd-and-euro-container {
+  display: flex;
+}
